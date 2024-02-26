@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      .product {
+        background-color: black;
+        color: floralwhite;
+        width: 350px;
+        height: 200px;
+        text-transform: uppercase;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+        margin-right: 20px;
+      }
+      .logo {
+        font-size: 24px;
+        text-transform: uppercase;
+      }
+      header {
+        background-color: brown;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+      }
+      ul {
+        display: flex;
+        justify-content: space-between;
+      }
+      .blog {
+        color: floralwhite;
+      }
+      .red {
+        background-image: url(https://pyt-blogs.imgix.net/2020/07/Camping-Photo-by-Patrick-Hendry-on-Unsplash-scaled.jpg?auto=format&fit=crop&h=400&ixlib=php-3.3.0&w=1500&wpsize=gridlove-cover);
+        height: 40vh;
+        background-repeat: no-repeat;
+        width: 67%;
+        background-size: cover;
+        border-radius: 10px;
+        margin-top: 48px;
+        margin-left: 15%;
+        font-size: 15px;
+      }
+      .button-opt {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        size: 300px;
+      }
+      #opt-buttons {
+        width: 150px;
+        height: 35px;
+        border-radius: 10px;
+        margin-bottom: 3px;
+        margin-top: 10px;
+      }
+      .shop{display: flex;
+        flex-direction: row; 
+      gap: 20px;
+    margin-top: 90px;
+  margin-left: 180px;
+width: 250x;}
+  .deal{text-decoration: none; text-decoration: none; color: white; text-transform: capitalize; ;}
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        background-color: black;
+        color: floralwhite;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 10px;
+        height: 60px;
+      "
+    >
+      <span
+        style="
+          background-color: brown;
+          color: floralwhite;
+          border-radius: 10px;
+          font-size: 20px;
+        "
+      >
+        Announcement
+      </span>
+      <h3>How we're responding to COVID-19</h3>
+    </div>
+    <header>
+      <h2 class="logo">ACME</h2>
+      <nav>
+        <ul style="list-style: none; display: flex; column-gap: 50px">
+          <li>home</li>
+          <li>about</li>
+          <li>shop</li>
+          <li>contact</li>
+        </ul>
+      </nav>
+    </header>
+    <header
+      style="
+        background-color: black;
+        height: 90px;
+        color: floralwhite;
+        padding-left: 120px;
+      "
+    >
+      <div>
+        <h1>shop our product</h1>
+      </div>
+    </header>
+    <div class="red">
+      <div
+        style="
+          background-color: transparent;
+          display: flex;
+          justify-content: end;
+          align-items: end;
+          padding-top: 30px;
+          padding-right: 10px;
+          font-size: 15px;
+        "
+      >
+        <button
+          style="
+            background-color: floralwhite;
+            border-radius: 10px;
+            padding: 10px 13px 10px 8px;
+            font-size: 13px;
+          "
+        >
+          featured items
+        </button>
+      </div>
+      <div
+        style="
+          color: floralwhite;
+          padding-top: 120px;
+          padding-left: 30px;
+          padding-bottom: 50px;
+        "
+      >
+        <h3>white tent</h3>
+        <p>$200.00 usd</p>
+      </div>
+    </div>
+    <div class="shop">
+      <div>
+        <div>
+          <h2>Shop by Category</h2>
+        </div>
+        <div class="button-opt">
+          <button id="opt-buttons" style="padding-right: 90px">gift cards</button>
+          <button id="opt-buttons" style="padding-right: 90px">tents</button>
+          <button id="opt-buttons" style="padding-right: 90px">
+            accessories
+          </button>
+          <button id="opt-buttons" style="padding-right: 90px">packs</button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <img
+            style="height: 400px; width: 290px; border-radius: 10px"
+            src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTyMy2NSANh3bOPnWxiYsskzxOR18B8wOYcGMZjo5rNYx-9XVqf"
+            alt=""
+          />
+        </div>
+        <div class="pity">
+          <h3>White Tent</h3>
+          <p>$ 200.00 USD</p>
+          <button
+            style="
+              background-color: red;
+              border-radius: 10px;
+              border: none;
+              padding: 5px 5px 5px 5px;
+              margin-bottom: 10px;
+            "
+          >
+            <a href="#" class="deal">details</a>
+          </button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <img
+            style="height: 400px; width: 290px; border-radius: 10px"
+            src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSms0KNZBoK3DrniDT-1D2bjygZFTI3NnunVzUrbT6Dz0DyEA39"
+            alt=""
+          />
+        </div>
+          <div class="tin">
+            <h3>Tin Coffee Tumbler</h3>
+            <p>$ 35.00 USD</p>
+            <button
+              style="
+                background-color: red;
+                border-radius: 10px;
+                border: none;
+                padding: 5px 5px 5px 5px;
+                margin-bottom: 10px;
+              
+              "
+            >
+              <a href="#" class="deal">details</a>
+            </button>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img
+              style="height: 400px; width: 290px; border-radius: 10px"
+              src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT_tvC1bc8vcXEwsFTfUR4JWZIws2idaAeNi3G5t2IP74l7OHJD"
+              alt=""
+            />
+          </div>
+            <div class="tan">
+              <h3>Blue Canvas Pack</h3>
+              <p>
+                $ 95.00 USD
+                <span style="color: red; text-decoration: line-through">
+                  $ 145.00 USD
+                </span>
+              </p>
+            </div>
+            <div>
+              <button
+                style="
+                  background-color: red;
+                  border-radius: 10px;
+                  border: none;
+                  padding: 5px 5px 5px 5px;
+                  margin-bottom: 10px;
+                "
+              >
+                <a href="#" class="deal">details</a>
+              </button>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div style="display: flex;flex-direction: column; margin-left: 380px; margin-top: 30px;">
+    <div>
+      <img style="height: 400px; width: 290px; border-radius: 10px;"
+       src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRU-pkjqG6rI0XxJXpJDmUQ39xoMb_XRphoVCB-hMHWyVkcIRQx" alt="">
+    </div>
+    <div>
+      <h3>Green Canvas Pack</h3>
+      <p>
+        $ 125.00 USD
+      </p>
+    </div>
+    <div>
+      <button
+        style="
+          background-color: red;
+          border-radius: 10px;
+          border: none;
+          padding: 5px 5px 5px 5px;
+          margin-bottom: 10px;
+        "
+      >
+        <a href="#" class="deal">details</a>
+      </button>
+    </div>
+    </div>
+    <div style="background-color: black; height: 170px; color: floralwhite">
+      <div>
+        <h3 style="padding-left: 70px; padding-top: 30px">ACME</h3>
+        <div>
+          <p
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding-top: 50px;
+            "
+          >
+            made in webflow @ 2020
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
